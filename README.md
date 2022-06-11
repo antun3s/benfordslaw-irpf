@@ -27,9 +27,12 @@ But, if you want to analyze all XML, joint all in same file:
 
 ### The output
 **Chart**
+
 This is example outup saved titled: `BenfordsLaw-analysis-on-IRPF.png`
 
 ![output chart BenfordsLaw analysis on IRPF ](https://github.com/antun3s/benfordslaw-irpf/blob/master/imgs/output-chart.png?raw=true)
 
+
 **Text**
+
 ![output text BenfordsLaw analysis on IRPF ](https://github.com/antun3s/benfordslaw-irpf/blob/master/imgs/output-text.png?raw=true)

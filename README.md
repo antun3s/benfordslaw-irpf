@@ -11,12 +11,15 @@ The tool's output displays in text format the frequency of the first digits, the
 ### Preparation
 This tool read de data in file `irpf.xml` , so the first step  is copy one or more IRPF XML to this file.
 To see them use:
+
 `find ~/ProgramasRFB/ -regextype sed -regex '.*/IRPF.*[0-9]\{11\}.*xml'`
 
 If you you want to analyze one file, just copy to irpf.xml:
+
 `cp /home/antunes/ProgramasRFB/IRPF2022/aplicacao/dados/YOUR-CPF/*.xml`
 
 But, if you want to analyze all XML, joint all in same file:
+
 `find ~/ProgramasRFB/ -regextype sed -regex '.*/IRPF.*[0-9]\{11\}.*xml' | awk '{print "cat " $1 " >> irpf.xml"}' | sh`
 
 ### Run ~~Forrest, Run!~~
@@ -26,7 +29,7 @@ But, if you want to analyze all XML, joint all in same file:
 **Chart**
 This is example outup saved titled: `BenfordsLaw-analysis-on-IRPF.png`
 
-![output chart BenfordsLaw analysis on IRPF ](https://)
+![output chart BenfordsLaw analysis on IRPF ](https://github.com/antun3s/benfordslaw-irpf/blob/master/imgs/output-chart.png?raw=true)
 
 **Text**
-![output chart BenfordsLaw analysis on IRPF ](https://)
+![output text BenfordsLaw analysis on IRPF ](https://github.com/antun3s/benfordslaw-irpf/blob/master/imgs/output-text.png?raw=true)
